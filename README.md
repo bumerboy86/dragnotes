@@ -1,27 +1,64 @@
-# React + TypeScript + Vite
+# Простой Todo лист с Drag-and-Drop (Vite + TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Это пример простого Todo листа, разработанного с использованием Vite (быстрый инструмент для разработки веб-приложений) и TypeScript. В приложении реализована функциональность Drag-and-Drop для перетаскивания элементов списка задач.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Как запустить приложение
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+> Убедитесь, что у вас установлен Node.js (рекомендуется версия 12 или выше).
 
-- Configure the top-level `parserOptions` property like this:
+> Клонируйте этот репозиторий с GitHub:
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+- bash (откройте терминал)
+- Copy code (Скопируйте код)
+- git clone https://github.com/bumerboy86/dragnotes
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+
+## Перейдите в директорию проекта:
+
+- bash (откройте терминал)
+- cd dragnotes
+
+
+## Установите зависимости:
+
+- bash
+- npm install
+
+
+## Запустите проект:
+
+- bash
+- npm run dev
+- Приложение будет запущено на локальном сервере (обычно на http://localhost:5173).
+
+
+## Как использовать приложение
+
+> В этом листе уже добавлены задачи.
+
+> Перетаскивание задачи: Вы можете перетащить задачу в другую позицию в списке.
+
+
+## Технологии
+
+
+- Vite - быстрый инструмент для разработки веб-приложений с удивительным разнообразием возможностей.
+- TypeScript - строго типизированный язык программирования, добавляющий статическую типизацию в JavaScript.
+- HTML - структура веб-страницы.
+- CSS - стилизация веб-страницы.
+
+
+## Дополнительные улучшения (по желанию)
+
+- Добавьте возможность сохранения задач.
+- Реализуйте функциональность для редактирования текста задачи.
+- Добавьте функциональность для создания нескольких списков задач с возможностью переключения между ними.
+- Улучшите стилизацию и внешний вид приложения.
+
+
+## Лицензия
+
+
+Этот проект лицензируется по лицензии MIT. Вы можете использовать, изменять и распространять его без ограничений.
