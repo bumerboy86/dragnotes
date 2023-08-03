@@ -12,7 +12,7 @@ function App() {
   const [todo, setTodo] = useState<TTodo[]>([
     {
       id: "03",
-      message: "Third note 3",
+      message: "Thirdawdawdwadawdawdwadwdwd note 3",
       index: 1
     },
     {
@@ -82,7 +82,7 @@ function App() {
                   onDragEnd={(e) => onDragEndHandler(e)}
                   onDrop={(e) => onDropHandler(e, item)}
                   >
-                    <p>{item.message}</p>
+                    <p className='todo_text'>{item.message}</p>
                   </div>
         })}
       </div>

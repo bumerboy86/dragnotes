@@ -22,3 +22,7 @@
   margin-bottom: 20px;
   cursor: pointer;
 }
+
+.todo_text {
+  word-break: break-all;
+}
