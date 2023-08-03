@@ -1,0 +1,24 @@
+.todo_list {
+  display: flex;
+  flex-direction: column;
+  background: rgb(138, 102, 102);
+  width: 100%;
+  padding: 20px 20px 0 20px;
+  box-sizing: border-box;
+}
+
+.todo_item {
+  min-width: 100%;
+  border: 1px solid gray;
+  margin-bottom: 20px;
+  background: rgb(243, 221, 221);
+  cursor: grab;
+}
+
+.todo_button {
+  background: rgb(243, 221, 221);
+  padding: 15px 25px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
